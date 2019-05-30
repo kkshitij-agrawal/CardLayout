@@ -1,0 +1,147 @@
+<!-- <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Expanding card page transition effect</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="card-column column-0">
+    <div class="card card-color-0">
+      <div class="border"></div>
+      <img src="1.jpg" />
+      <h1>Tracing the Distant</h1>
+    </div>
+    <div class="card card-color-2">
+      <div class="border"></div>
+      <img src="2.jpg" />
+      <h1>Coming Soon...</h1>
+    </div>
+  </div>
+  <div class="card-column column-1">
+    <div class="card card-color-1">
+      <div class="border"></div>
+      <img src="Capture.png" />
+      <h1>Intorductory Text</h1>
+    </div>
+    <div class="card card-color-3">
+      <div class="border"></div>
+      <img src="Capture.png" />
+      <h1>Intorductory Text</h1>
+    </div>
+    <div class="card card-color-3">
+      <div class="border"></div>
+      <img src="Capture.png" />
+      <h1>Intorductory Text</h1>
+    </div>
+  </div>
+</div>
+<div id="cover" class="cover"></div>
+<div id="open-content" class="open-content">
+  <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
+  <img id="open-content-image" src="" />
+  <div class="text" id="open-content-text">
+  </div>
+</div>
+  <script  src="index.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<p></p><br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+            <div class="border"></div>
+
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card">
+            <div class="border"></div>
+
+      <h3>~Comedy Night~</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column3">
+    <div class="card" >
+      <!-- onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'" -->
+      <div class="border"></div>
+      <h3>~ Theme ~</h3>
+      <img src="1.jpg">
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column4">
+    <div class="card">
+      <div class="border"></div>
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column5 ">
+    <div class="card">
+      <div class="border"></div>
+      <h3>Card 5</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+
+<div id="cover" class="cover"></div>
+<div id="open-content" class="open-content">
+  <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
+  <img id="open-content-image" src="" />
+  <div class="text" id="open-content-text">
+  </div>
+</div>
+
+
+  <button class="md-trigger" data-modal="modal-12">Show modal</button>
+
+<div class="md-modal md-effect-12">
+    <div class="md-content">
+        <h3>Modal Dialog</h3>
+        <div>
+            <p>This is a modal window. You can do the following things with it:</p>
+            <ul>
+                <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+                <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+                <li><strong>Close:</strong> click on the button below to close the modal.</li>
+            </ul>
+            <button class="md-close">Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="md-overlay"></div>
+  <!-- <p id="demo"> hello</p> -->
+       <script  src="index.js"></script>
+</body>
+</html>
